@@ -1,0 +1,31 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET="utf-8">
+</head>
+<body>
+<ol type="1">
+    <li>Na co pozwala styl lokalny, który element będzie formatowany z użyciem stylu lokalnego</li>
+    <br>
+    <li>Składnia teoretyczna ( z użyciem ramki otaczającej może być tabela o jednej komórce, zastosuj „znaki specjalne” do napisania definicji stylu lokalnego tak aby instrukcja CSS nie wykonywała się a tylko wyświetlała wewnątrz ramki [&nbsp; spacja niełamana] przykład „znaku specjalnego”)</li>
+    <br>
+    <li>Co może być selektorem</li>
+    <br>
+    <li>Co wypisujemy jako "cechę". Jakie jest znaczenie średników</li>
+    <br>
+    <li>Co wypisujemy jako "wartość" (w deklaracji stylu)</li>
+</ol>
+<br><br>
+<ol type="1">
+    <li> Styl lokalny pozwala na nadanie formatowania konkretnemu pojedynczemu elementowi strony. Jest wstawiany w tej samej linii, w której znajduje się element formatowany. O tym, który to będzie element, decyduje słowo kluczowe "selektor".
+    <li><p style="border-width:3px; border-style:solid; border-color:black; padding:3px;"> <&nbsp;selektor style="cecha1: wartość1; cecha2: wartość2...">...<&nbsp;/selektor></p>
+    <br> lub
+    <br><p style="border-width:3px; border-style:solid; border-color:black; padding:3px;"> <&nbsp;selektor style="nasze style">treść bloku<&nbsp;/selektor></p> </li>
+    <br>
+    <li> Selektorem może być praktycznie dowolny znacznik, np. p (akapit), h1 (nagłówek), td (komórka tabeli) i inne. To właśnie elementom znajdującym się pomiędzy tymi znacznikami, nadajemy atrybuty formatowania.</li>
+    <br>
+    <li> Jako "cecha" czy inaczej własność bądź właściwość (ang. "property") należy wpisać o jakie konkretnie atrybuty formatowania nam chodzi (np. kolor tekstu - color). Jednemu selektorowi możemy nadać kilka atrybutów (cech). Są one wtedy rozdzielone średnikami.</li>
+    <br>
+    <li> Jako wyraz "wartość" (w deklaracji stylu) wpisujemy dokładną wartość atrybutu (np. dla koloru tekstu będzie to: red, blue czy też #31F4A5 itd.). Wartość zależy ściśle od cechy, po której stoi w deklaracji.</li>
+</ol>
+    </body>
+    </html>

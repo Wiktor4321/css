@@ -1,0 +1,18 @@
+
+<html>
+<head>
+<title>styl zewnetrzne</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- wewnetrzny -->
+<style>
+p {
+color: green;
+font-size: 82px;
+}
+</style>
+</head>
+<body bgcolor="silver">
+<p> ¯ur -> zewnêtrzne</p>
+h3 wpisany wielkoœci¹ standardow¹
+</body>
+</html>

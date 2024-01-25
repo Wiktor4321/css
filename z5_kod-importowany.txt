@@ -1,0 +1,19 @@
+p {
+    color: red;
+    font-size: 92px;
+    }
+
+<html>
+<head>
+<title>styl zewnetrzne</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- importowany -->
+<style>
+@import url("¿ur_z5_1.css ");
+</style>
+</head>
+<body bgcolor="silver">
+<p>¯ur</p>
+h3 wpisany wielkoœci¹ standardow¹
+</body>
+</html>
