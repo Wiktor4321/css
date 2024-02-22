@@ -1,0 +1,39 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html; CHARSET="utf-8">
+</head>
+<body>
+    <div style="background-color: #FFFDD0; width: 100%; height: 40%">
+       <p style="color: orange; font-size: 20pt; font-family: arial">
+        Informatyka – nauka œcis³a oraz techniczna zajmuj¹ca siê przetwarzaniem informacji, w tym równie¿ technologiami przetwarzania informacji oraz technologiami wytwarzania systemów przetwarzaj¹cych informacje.
+        </p>
+    </div>
+    
+    <div style="background-color: #FF00FF; width: 80%; height: 15%">
+        <p>
+        <i style="color: green; font-size: 20pt">
+            <b>Zajmuje siê rozwi¹zywaniem problemów obliczeniowych,</b> 
+        </i>
+        <strike style="color: red; font-size: 20pt">
+            opisem procesów algorytmicznych oraz tworzeniem programów komputerowych
+        </strike>
+        <u style="color: purple; font-size: 20pt">
+         i czêœciowo sprzêtu komputerowego (z wy³¹czeniem zagadnieñ materialnych i energetycznych).
+         </u>
+        </p>
+    </div>
+
+    <div style="background-color: #00FF7F; width: 100%; height: 30%">
+    <h1 style="color: blue; font-size: 30pt">Informatyka pocz¹tkowo stanowi³a czêœæ matematyki</h1>
+    <br>
+    <ol>
+        <li style="color: blue; font-size: 25pt;">z czasem wyodrêbni³a siê do oddzielnej dyscypliny.</li>
+        <li style="color: red; font-size: 20pt;">W jêzyku polskim termin „informatyka”</li>
+        <li style="color: grey; font-size: 15pt;">zaproponowa³ w paŸdzierniku 1968 r. Romuald Marczyñski</li>
+    </ol>
+     
+    </div>
+        
+
+</body>
+</html>
