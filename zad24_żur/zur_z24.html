@@ -1,70 +1,163 @@
+
+<!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
 </head>
 <body>
-    1)Jakie standardowo dostępne są czcionki w systemie Windows( trzy, użyj wyliczenia z 
-    kwadratem)
-<br>
-    2)Jakich czcionek dodatkowo dostarcza Internet Explorerem ( cztery, użyj wyliczenia z 
-    okręgiem nie kołem) .
-    <br>
-    3)Wymień rodziny ogólne ( pięć, użyj wyliczenia z kołem, podkreślen33ie, przykłady) .
-    <br>
-    4)Kiedy stosujemy rodziny czcionek, w jaki sposób wpisujemy( deklarujemy rodziny 
-    czcionek).
-    <br>
-    5) Rodzaje wyrównanie tekstu (cztery, wyliczenie)
-    <br>
-    6)Kolor tekstu (składnia opis)
-    <br>
-    7)dekoracja tekstu (składnia, opis, odpowiednie wcięcia, podkreślenia numerowania 
-    a) b)…)
-    <br>
-    8)Warianty czcionek
-    <br>
-    9)Pogrubienie czcionek (wyliczenia)
-    <br>
-    10)Rozmiar czcionek (wyliczenia, …………)
-    <br>
-    11)Transformacja tekstu (składnia, opis, podkreślenia)
-    <br>
-    12)Wcięcia tekstu(składnia, jednostki miar)
-    <br>
-    13)Odstęp miedzy wierszami
-    <br>
-    14)Odstęp między wyrazami
-    <br>
-    15) Odstęp między literami
-    <br>
-    16)Łączenie właściwości czcionek i tekstu
-    <br><br><br>
-    1. <ul type="square">
-        <li>Times New Roman (szeryfowa)</li>
-        <li>Arial (bezszeryfowa)</li>
-        <li>Courier New (monotypiczna)</li>
-    </ul>
-    <br>
-    2. <ul type="circle">
-        <li>Verdana</li>
-        <li>Tahoma</li>
-        <li>'Trebuchet MS'</li>
-        <li>Georgia</li>
-    </ul>
-    <br>
-    3. <ul type="disc">
-        <li>serif - <u>czcionka szeryfowa</u> (końcówki znaków posiadają "ozdobniki"), np.: 'Times 
-            New Roman', Georgia, Garamond, Bodoni</li>
-        <li>sans-serif - <u>czcionka bezszeryfowa</u> (końcówki znaków są proste), np.: Arial, Verdana, 
-            'Trebuchet MS', Helvetica, Univers, Futura</li>
-        <li>monospace - <u>czcionka o stałej szerokości znaków</u> - monotypiczna (wygląda, jak 
-            pisana na maszynie), np.: Courier, 'Courier New'</li>
-        <li>cursive - <u>czcionka mająca pewne cechy pochyłej</u> (wygląda, jak pisana ręcznie)</li>
-        <li>fantasy - <u>czcionka fantazyjna</u> (dekoracyjna)</li>
-        </ul>
-    <br>
-    4. Rodziny ogólne wykorzystuje się jako ostatnia alternatywa - jeśli użytkownik nie<br>
-    będzie posiadał żadnej czcionki, której nazwę wpisaliśmy wprost. Dlatego zwykle rodzinę<br>
-    ogólną podaje się na samym końcu listy nazw czcionek
+<h1>
+
+1.Jakie standardowo dostępne są czcionki w systemie Windows( trzy, użyj wyliczenia z
+kwadratem)
+</h1>
+<ul type="disc" style="font-family:Arial, Helvetica, sans-serif">
+<li>Times New Roman (szeryfowa),</br></li>
+<li>Arial (bezszeryfowa),</br></li>
+<li>Courier New (monotypiczna).</br></li>
+</ul>
+
+<h1>
+2.Jakich czcionek dodatkowo dostarcza Internet Explorerem ( cztery, użyj wyliczenia z
+okręgiem nie kołem)
+</h1>
+<ul type="circle" style="font-family:Arial, Helvetica, sans-serif">
+    <li>Verdana,</br>
+        <li>Tahoma,</br>
+            <li>'Trebuchet MS'</br>
+                <li>Georgia.</br>
+</ul>
+
+
+
+
+<h1>3.Wymień rodziny ogólne ( pięć, użyj wyliczenia z kołem, podkreślen33ie, przykłady)
+</h1>
+<ul type="disc" style="font-family:Arial, Helvetica, sans-serif">
+    <li>serif</br>
+        <li>sans-serif</br>
+            <li>monospace</br>
+                <li>cursive</br>
+                    <li>fantasy</br>
+</ul>
+
+<h1>4.Kiedy stosujemy rodziny czcionek, w jaki sposób wpisujemy( deklarujemy rodziny
+czcionek)</h1>
+
+deklarujemy je w css za pomocą font-family:(nazwa rodziny czcionki albo rodziny ogólnej czcionki);
+
+<h1>5.Rodzaje wyrównanie tekstu (cztery, wyliczenie)</h1>
+<ul type="circle" style="font-family:Arial, Helvetica, sans-serif">
+    <li>Do prawej</br>
+        <li>Do lewej</br>
+            <li>Wyśrodkowane</br>
+                <li>Wyjustowane</br>
+</ul>
+
+<h1>6.Kolor tekstu (składnia opis)
+</h1>
+
+<font face="Arial">selektor {color: kolor;}</br></font>
+
+<h1>7.Dekoracja tekstu (składnia, opis, odpowiednie wcięcia, podkreślenia numerowania</h1>
+<ul type="disc" style="font-family:Arial, Helvetica, sans-serif">
+    <li>selektor {text-decoration: dekoracja;}</br>
+        <li>Podkreślić - (underline)</br>
+            <li>Przekreślić - (line-through)</br>
+                <li>Nadkreślić - (overline)</br>
+                    <li>Można dodać migotanie tekstu (tylko Netspace/Mozilla/Opera) – (blink)</br>
+</ul>
+
+<h1>8.Warianty czcionek</h1>
+<ul type="disc" style="font-family:Arial, Helvetica, sans-serif">
+    <li>normal - czcionka normalna (podstawowa)</br>
+        <li>small-caps - kapitaliki, czyli tekst napisany wielkimi literami, lecz czcionką o wielkości małych liter.</br>
+</ul>
+
+<h1>9.Pogrubienie czcionek (wyliczenia)</h1>
+<ul type="circle" style="font-family:Arial, Helvetica, sans-serif">
+    <li>normal - czcionka normalna (podstawowa)</br>
+        <li>bold - czcionka pogrubiona</br>
+            <li>100, 200, 300, 400 (odpowiednik "normal"), 500, 600, 700 (odpowiednik "bold"), </br>
+                <li>800, 900 - każdy następny numer wskazuje wagę czcionki przynajmniej tak samo </br>
+                    <li>wytłuszczonej jak dla poprzedniej wartości w sekwencji</br>
+</ul>
+
+
+<h1>10.Rozmiar czcionek (wyliczenia, …………)</h1>
+<ul type="disc" style="font-family:Arial, Helvetica, sans-serif">
+    <li>xx-small - najmniejsza</br>
+        <li>x-small - mniejsza</br>
+            <li>small - mała</br>
+                <li>medium - średnia</br>
+                    <li>large - duża</br>
+                        <li>x-large - większa</br>
+                            <li>xx-large - największa</br>
+                            </ul>
+<ul type="circle" style="font-family:Arial, Helvetica, sans-serif">
+                                <li>Z użyciem różnych jednostek:</br>
+                                    <li>rozmiar 0.5cm</br>
+                                        <li>rozmiar 4mm</br>
+                                            <li>rozmiar 0.25in</br>
+                                                <li>rozmiar 10pt</br>
+                                                    <li>rozmiar 1pc</br>
+                                                        <li>rozmiar 15px</br>
+                                                            <li>rozmiar 1em</br>
+                                                                <li>rozmiar 2ex</br>
+</ul>
+
+
+<h1>11.Transformacja tekstu (składnia, opis, podkreślenia)</h1>
+selektor {text-transform: transformacja;}</br>
+<ul type="disc" style="font-family:Arial, Helvetica, sans-serif">
+<li>"none" - bez zmian</br>
+    <li>"capitalize" - zamiana pierwszych liter wszystkich wyrazów na wielkie</br>
+        <li>"uppercase" - zamiana wszystkich liter na wielkie</br>
+            <li>"lowercase" - zamiana wszystkich liter na małe</br>
+</ul>
+
+
+<h1>12.Wcięcia tekstu(składnia, jednostki miar)</h1>
+
+<font face="Arial">selektor {text-indent: wcięcie;}</br>
+Jednostki miar:</br></font>
+<ul type="circle" style="font-family:Arial, Helvetica, sans-serif">
+    <li>piksele - px</br>
+        <li>punkty edytorskie - pt</br>
+            <li>wysokość litery "x" - ex</br>
+                <li>wysokość aktualnej czcionki - em</br>
+                    <li>centymetry lub milimetry - cm, mm</br>
+                        <li>części dziesiętne centymetra pisane z kropką np.: 0.5cm</br>
+                            <li>cale - in (1in=2.54cm)</br>
+</ul>
+
+
+<h1>13.Odstęp miedzy wierszami</h1>
+
+<font face="Arial">selektor {line-height: odstęp;}</br>
+jednostki takie jak w punkcie 12.</br></font>
+
+<h1>14.Odstęp między wyrazami</h1>
+
+<font face="Arial">selektor {word-spacing: odstęp;}</br>
+jednostki takie jak w punkcie 12.</br></font>
+
+<h1>15.Odstęp między literami</h1>
+
+<font face="Arial">selektor {letter-spacing: odstęp;}</br>
+jednostki takie jak w punkcie 12.</br></font>
+
+<h1>16.Łączenie właściwości czcionek i tekstu</h1>
+Prawidłowa kolejność wartości atrybutów:
+<ul type="disc" style="font-family:Arial, Helvetica, sans-serif">
+    <li>font-style</br>
+        <li>font-variant</br>
+            <li>font-weight</br>
+                <li>font-size</br>
+                    <li>line-height</br>
+                        <li>font-family</br>
+</ul>
+
+
+
 </body>
 </html>
